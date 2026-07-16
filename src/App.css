@@ -1565,10 +1565,7 @@ body{
     padding:15px 20px;
 }
 .menu-btn{
-
-    display:block;
-
-    margin-right:15px;
+    background:red;
 }
 
 .logo{

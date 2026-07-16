@@ -1565,7 +1565,21 @@ body{
     padding:15px 20px;
 }
 .menu-btn{
-    background:red;
+
+    display:block;
+
+    background:none;
+    border:none;
+    color:white;
+
+    font-size:2rem;
+
+    position:absolute;
+    right:20px;
+    top:50%;
+    transform:translateY(-50%);
+
+    cursor:pointer;
 }
 
 .logo{

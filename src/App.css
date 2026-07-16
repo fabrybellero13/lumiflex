@@ -1563,9 +1563,12 @@ body{
 
     width:92%;
     padding:15px 20px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 }
 .menu-btn{
-
     display:block;
 
     background:none;
@@ -1575,12 +1578,13 @@ body{
     font-size:2rem;
 
     position:absolute;
-    right:20px;
+    right:30px;
     top:50%;
     transform:translateY(-50%);
 
     cursor:pointer;
 }
+
 
 .logo{
 

@@ -1556,12 +1556,15 @@ body{
 @media (max-width:768px){
 
   .navbar{
+    position:fixed;
+    top:15px;
+    left:50%;
+    transform:translateX(-50%);
 
-    width:95%;
+    width:92%;
     padding:15px 20px;
-    position:relative;
-
-}.menu-btn{
+}
+.menu-btn{
 
     display:block;
 
@@ -1577,24 +1580,24 @@ body{
 
     position:absolute;
 
-    top:70px;
+    top:80px;
     left:0;
     right:0;
 
-    background:#111;
+    background:rgba(20,20,20,.95);
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
 
     display:none;
-
     flex-direction:column;
+    align-items:center;
 
-    gap:20px;
+    gap:22px;
 
-    padding:20px;
-
-    border-radius:15px;
-
-    text-align:center;
-
+    padding:25px;
 }
 
 .menu.activo{
@@ -1605,7 +1608,7 @@ body{
 
   .hero{
 
-    padding-top:130px;
+    padding-top:180px;
 
   }
 
@@ -1627,9 +1630,15 @@ body{
 
     font-size:1rem;
 
-    margin:auto;
+    margin:0 auto 40px;
+}
 
-  }
+.hero-text button{
+
+    padding:16px 40px;
+
+    font-size:17px;
+}
 
   .hero-image img{
 

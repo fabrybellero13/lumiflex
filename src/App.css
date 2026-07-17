@@ -90,17 +90,10 @@ body{
 
 .menu-btn{
     display:none;
-
-    background:red;
-    border:3px solid yellow;
-    color:white !important;
-
-    font-size:32px !important;
-    font-weight:bold;
-
-    width:60px;
-    height:60px;
-
+    background:transparent;
+    border:none;
+    color:white;
+    font-size:32px;
     cursor:pointer;
 }
 
@@ -1597,9 +1590,9 @@ max-height:520px;
     top:50%;
     transform:translateY(-50%);
 
-    background:red;
-    border:3px solid yellow;
-    color:white !important;
+    background:transparent;
+    border:none;
+    color:white;
 
     width:60px;
     height:60px;

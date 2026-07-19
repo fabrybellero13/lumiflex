@@ -1,29 +1,59 @@
 import Counter from "./Counter";
+import {
+  Palette,
+  Lightbulb,
+  ShieldCheck,
+  Truck,
+} from "lucide-react";
+
+const stats = [
+  {
+    icon: <Palette size={34} />,
+    value: 16,
+    suffix: "M+",
+    label: "RGB Color Options",
+  },
+  {
+    icon: <Lightbulb size={34} />,
+    value: 30,
+    suffix: "K",
+    label: "Hours LED Lifetime",
+  },
+  {
+    icon: <ShieldCheck size={34} />,
+    value: 30,
+    suffix: "-Day",
+    label: "Money-Back Guarantee",
+  },
+  {
+    icon: <Truck size={34} />,
+    value: 3,
+    suffix: "-7",
+    label: "Business Day Delivery",
+  },
+];
 
 function Stats() {
   return (
     <section className="stats">
+      {stats.map((item, index) => (
+        <div className="stat-card" key={index}>
 
-      <div className="stat">
-        <Counter end={4} suffix=".9★" />
-        <p>Calificación promedio</p>
-      </div>
+          <div className="stat-icon">
+            {item.icon}
+          </div>
 
-      <div className="stat">
-        <Counter end={2500} suffix="+" />
-        <p>Clientes felices</p>
-      </div>
+          <h3>
+            <Counter
+              end={item.value}
+              suffix={item.suffix}
+            />
+          </h3>
 
-      <div className="stat">
-        <Counter end={50000} suffix="+" />
-        <p>Lámparas vendidas</p>
-      </div>
+          <p>{item.label}</p>
 
-      <div className="stat">
-        <Counter end={18} />
-        <p>Países alcanzados</p>
-      </div>
-
+        </div>
+      ))}
     </section>
   );
 }

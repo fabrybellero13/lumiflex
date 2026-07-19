@@ -5,26 +5,38 @@ import img4 from "../images/lampara4.png";
 
 function Gallery() {
   return (
-    <section className="gallery" id="galeria">
+    <section className="gallery" id="gallery">
 
-      <h2>Galería</h2>
+      <h2>See LumiFlex™ in Action</h2>
 
       <div className="gallery-grid">
 
         <div>
-          <img src={img1} alt="LumiFlex en living moderno" />
+          <img
+            src={img1}
+            alt="LumiFlex RGB Floor Lamp in a modern living room"
+          />
         </div>
 
         <div>
-          <img src={img2} alt="LumiFlex en escritorio gamer" />
+          <img
+            src={img2}
+            alt="LumiFlex RGB Floor Lamp in a gaming setup"
+          />
         </div>
 
         <div>
-          <img src={img3} alt="LumiFlex en dormitorio" />
+          <img
+            src={img3}
+            alt="LumiFlex RGB Floor Lamp in a cozy bedroom"
+          />
         </div>
 
         <div>
-          <img src={img4} alt="LumiFlex en sala de estar" />
+          <img
+            src={img4}
+            alt="LumiFlex RGB Floor Lamp in a stylish home"
+          />
         </div>
 
       </div>

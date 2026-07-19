@@ -5,7 +5,14 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <h2 className="logo">LumiFlex™</h2>
+      <a
+        href="#home"
+        className="logo"
+        onClick={() => setMenuAbierto(false)}
+      >
+        <span className="logo-white">Lumi</span>
+        <span className="logo-gradient">Flex™</span>
+      </a>
 
       <button
         className="menu-btn"
@@ -15,10 +22,21 @@ function Navbar() {
       </button>
 
       <div className={`menu ${menuAbierto ? "activo" : ""}`}>
-        <a href="#inicio" onClick={() => setMenuAbierto(false)}>Inicio</a>
-        <a href="#producto" onClick={() => setMenuAbierto(false)}>Producto</a>
-        <a href="#opiniones" onClick={() => setMenuAbierto(false)}>Opiniones</a>
-        <a href="#faq" onClick={() => setMenuAbierto(false)}>FAQ</a>
+        <a href="#home" onClick={() => setMenuAbierto(false)}>
+          Home
+        </a>
+
+        <a href="#product" onClick={() => setMenuAbierto(false)}>
+          Product
+        </a>
+
+        <a href="#reviews" onClick={() => setMenuAbierto(false)}>
+          Reviews
+        </a>
+
+        <a href="#faq" onClick={() => setMenuAbierto(false)}>
+          FAQ
+        </a>
       </div>
     </nav>
   );

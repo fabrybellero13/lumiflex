@@ -3,41 +3,49 @@ import lampara from "../images/lampara.png";
 
 function Hero() {
   return (
-    <section className="hero" id="inicio">
-
+    <section className="hero" id="home">
       <div className="hero-content">
 
         <Reveal delay={200}>
           <div className="hero-text">
 
             <span className="hero-badge">
-              🔥 Oferta por tiempo limitado
+              🔥 Limited Time Offer
             </span>
 
             <h1>
-              Transformá
-              <br />
-              cualquier
-              <br />
-              espacio con
-              <br />
-              una sola luz.
+              Transform Your Space
+              <span className="gradient-text">
+                {" "}With Stunning RGB Lighting
+              </span>
             </h1>
 
             <p>
-              Descubrí la nueva LumiFlex™ Corner RGB Pro y convertí tu habitación
-              en un ambiente moderno, elegante y totalmente personalizable.
+              Create the perfect atmosphere for gaming, movies, relaxing or
+              working with 16 million colors, music sync and smart app control.
             </p>
 
-            <a
-              href="https://wa.me/3487521556?text=Hola%20me%20interesa%20la%20LumiFlex%20RGB.%20Quisiera%20m%C3%A1s%20informaci%C3%B3n."
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <div className="hero-rating">
+              ⭐⭐⭐⭐⭐
+              <span> Trusted by happy customers</span>
+            </div>
+
+            <h2 className="hero-price">
+              <span className="old-price">$69.99</span>
+              $49.99
+            </h2>
+
+            <a href="#product">
               <button>
-                Comprar ahora
+                Get Yours Today
               </button>
             </a>
+
+            <div className="hero-features">
+              <span>🚚 Free Shipping</span>
+              <span>🔒 Secure Checkout</span>
+              <span>🛡️ 30-Day Guarantee</span>
+            </div>
 
           </div>
         </Reveal>
@@ -45,18 +53,18 @@ function Hero() {
         <Reveal delay={500}>
           <div className="hero-image">
 
-            <div className="light-glow"></div>
+            <div className="hero-circle hero-circle-1"></div>
+            <div className="hero-circle hero-circle-2"></div>
 
             <img
               src={lampara}
-              alt="Lámpara RGB LumiFlex"
+              alt="LumiFlex RGB Corner Lamp"
             />
 
           </div>
         </Reveal>
 
       </div>
-
     </section>
   );
 }

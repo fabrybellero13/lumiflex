@@ -9,27 +9,45 @@ import Benefits from "./components/Benefits";
 import HowItWorks from "./components/HowItWorks";
 import Reviews from "./components/Reviews";
 import Faq from "./components/Faq";
+import Guarantee from "./components/Guarantee";
+import TrustBar from "./components/TrustBar";
 import FinalCTA from "./components/FinalCTA";
 import WhyUs from "./components/WhyUs";
 import Footer from "./components/Footer";
-import WhatsAppButton from "./components/WhatsAppButton";
+import StickyBuyButton from "./components/StickyBuyButton";
 
 function App() {
   return (
     <>
       <Navbar />
+
       <Hero />
+
       <Stats />
+
       <Product />
+
       <Gallery />
+
       <Benefits />
+
       <HowItWorks />
+
       <Reviews />
+
       <Faq />
+
+      <Guarantee />
+
+      <TrustBar />
+
       <FinalCTA />
+
       <WhyUs />
+
       <Footer />
-      <WhatsAppButton />
+
+      <StickyBuyButton />
     </>
   );
 }

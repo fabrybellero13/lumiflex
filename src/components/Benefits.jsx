@@ -4,29 +4,29 @@ function Benefits() {
   const cards = [
     {
       icon: "🌈",
-      title: "16 millones de colores",
-      text: "Elegí exactamente el ambiente que querés con una paleta casi infinita.",
+      title: "16 Million RGB Colors",
+      text: "Customize every moment with vibrant colors and dynamic lighting effects for any mood.",
     },
     {
       icon: "🎵",
-      title: "Modo Música",
-      text: "La iluminación reacciona automáticamente al ritmo de tus canciones.",
+      title: "Music Sync",
+      text: "Your lights react instantly to your favorite songs, creating an immersive experience.",
     },
     {
       icon: "📱",
-      title: "Control Inteligente",
-      text: "Controlá la lámpara desde tu celular o con el control remoto incluido.",
+      title: "Smart Control",
+      text: "Control every setting with the Bluetooth app or the included remote control.",
     },
     {
       icon: "⚡",
-      title: "Bajo consumo",
-      text: "Tecnología LED moderna que consume muy poca energía.",
+      title: "Energy Efficient",
+      text: "Modern LED technology delivers stunning brightness while using very little power.",
     },
   ];
 
   return (
     <section className="benefits">
-      <h2>¿Por qué elegir LumiFlex™?</h2>
+      <h2>Why Choose LumiFlex™?</h2>
 
       <div className="benefits-grid">
         {cards.map((card, index) => (

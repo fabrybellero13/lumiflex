@@ -2,29 +2,29 @@ import {
   Truck,
   ShieldCheck,
   CreditCard,
-  HeartHandshake,
+  Headset,
 } from "lucide-react";
 
 const items = [
   {
     icon: Truck,
-    title: "Envíos rápidos",
-    text: "Realizamos envíos a todo el país de forma rápida y segura.",
+    title: "Fast U.S. Shipping",
+    text: "Quick and reliable delivery across the United States with tracking included.",
   },
   {
     icon: ShieldCheck,
-    title: "Garantía oficial",
-    text: "Todos nuestros productos cuentan con garantía por defectos de fabricación.",
+    title: "30-Day Guarantee",
+    text: "If you're not completely satisfied, we'll make it right with our 30-day satisfaction guarantee.",
   },
   {
     icon: CreditCard,
-    title: "Pagos seguros",
-    text: "Aceptamos tarjetas, transferencia y Mercado Pago.",
+    title: "Secure Payments",
+    text: "Checkout securely using Visa, Mastercard, American Express, PayPal and more.",
   },
   {
-    icon: HeartHandshake,
-    title: "Clientes felices",
-    text: "Miles de personas ya transformaron sus ambientes con LumiFlex.",
+    icon: Headset,
+    title: "Dedicated Support",
+    text: "Our support team is ready to help you before and after your purchase.",
   },
 ];
 
@@ -32,9 +32,11 @@ function WhyUs() {
   return (
     <section className="why-us">
 
-      <span className="why-badge">CALIDAD PREMIUM</span>
+      <span className="why-badge">
+        PREMIUM QUALITY
+      </span>
 
-      <h2>¿Por qué comprar con nosotros?</h2>
+      <h2>Why Shop With LumiFlex™?</h2>
 
       <div className="why-grid">
 

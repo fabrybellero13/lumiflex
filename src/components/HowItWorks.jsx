@@ -2,7 +2,7 @@ function HowItWorks() {
   return (
     <section className="how">
 
-      <h2>¿Cómo funciona?</h2>
+      <h2>How It Works</h2>
 
       <div className="timeline"></div>
 
@@ -10,26 +10,26 @@ function HowItWorks() {
 
         <div className="step">
           <div className="step-number">1</div>
-          <h3>Conectá la lámpara</h3>
-          <p>Armala en menos de un minuto y enchufala.</p>
+          <h3>Assemble Your Lamp</h3>
+          <p>Set it up in under a minute. No tools required.</p>
         </div>
 
         <div className="step">
           <div className="step-number">2</div>
-          <h3>Descargá la App</h3>
-          <p>Compatible con Android y iPhone.</p>
+          <h3>Connect the App</h3>
+          <p>Pair it with your smartphone using the Bluetooth app.</p>
         </div>
 
         <div className="step">
           <div className="step-number">3</div>
-          <h3>Elegí el color</h3>
-          <p>Más de 16 millones de combinaciones.</p>
+          <h3>Customize Your Lighting</h3>
+          <p>Choose from over 16 million colors and dynamic lighting effects.</p>
         </div>
 
         <div className="step">
           <div className="step-number">4</div>
-          <h3>Disfrutá</h3>
-          <p>Creá el ambiente perfecto para cualquier ocasión.</p>
+          <h3>Enjoy Your Space</h3>
+          <p>Create the perfect atmosphere for gaming, movies, work or relaxation.</p>
         </div>
 
       </div>

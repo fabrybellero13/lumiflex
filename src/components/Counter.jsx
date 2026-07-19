@@ -46,10 +46,10 @@ function Counter({ end, duration = 2000, suffix = "" }) {
   }, [started, end, duration]);
 
   return (
-    <h2 ref={ref}>
+    <span ref={ref}>
       {count}
       {suffix}
-    </h2>
+    </span>
   );
 }
 

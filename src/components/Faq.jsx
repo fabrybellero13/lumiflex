@@ -24,31 +24,31 @@ function Faq() {
   return (
     <section className="faq" id="faq">
 
-      <h2>Preguntas frecuentes</h2>
+      <h2>Frequently Asked Questions</h2>
 
       <Question
-        title="¿La lámpara funciona con celular?"
-        answer="Sí. Se controla desde una aplicación compatible con Android e iPhone."
+        title="Can I control the lamp with my phone?"
+        answer="Yes. LumiFlex™ works with a free Bluetooth app available for both iPhone and Android devices."
       />
 
       <Question
-        title="¿Tiene garantía?"
-        answer="Sí. Todos nuestros productos cuentan con garantía oficial por defectos de fabricación."
+        title="Does it come with a warranty?"
+        answer="Yes. Every LumiFlex™ lamp includes a 30-day money-back guarantee and warranty against manufacturing defects."
       />
 
       <Question
-        title="¿Cuánto tarda el envío?"
-        answer="Los envíos suelen demorar entre 2 y 5 días hábiles dependiendo de tu ubicación."
+        title="How long does shipping take?"
+        answer="Most orders arrive within 3–7 business days anywhere in the United States."
       />
 
       <Question
-        title="¿Consume mucha electricidad?"
-        answer="No. Utiliza tecnología LED de bajo consumo, ideal para usar muchas horas."
+        title="Does it use a lot of electricity?"
+        answer="No. LumiFlex™ uses energy-efficient LED technology, providing bright lighting while consuming very little power."
       />
 
       <Question
-        title="¿Tiene diferentes modos de iluminación?"
-        answer="Sí. Incluye millones de colores, efectos dinámicos y sincronización con música."
+        title="Can I change the colors and lighting effects?"
+        answer="Absolutely. Choose from over 16 million colors, dynamic lighting effects, scene modes and music synchronization through the app or remote control."
       />
 
     </section>

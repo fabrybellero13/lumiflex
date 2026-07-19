@@ -7,32 +7,28 @@ function FinalCTA() {
       <div className="cta-text">
 
         <span className="cta-badge">
-          🔥 Oferta por tiempo limitado
+          🔥 Limited Time Offer
         </span>
 
         <h2>
-          ¿Listo para transformar
+          Upgrade Your Space
           <br />
-          tu habitación?
+          Today.
         </h2>
 
         <p>
-          Descubrí una nueva forma de iluminar tus espacios con más de
-          16 millones de colores, sincronización con música y control
-          inteligente desde tu celular.
+          Whether you're gaming, watching movies, working or simply relaxing,
+          LumiFlex™ creates the perfect atmosphere with vibrant RGB lighting,
+          smart controls and a sleek modern design.
         </p>
 
         <div className="cta-price">
-          $79.999
+          $49.99
         </div>
 
-        <a
-          href="https://wa.me/3487521556?text=Hola%20me%20interesa%20la%20LumiFlex%20RGB.%20Quisiera%20m%C3%A1s%20informaci%C3%B3n."
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="#product">
           <button>
-            Comprar ahora
+            Shop Now
           </button>
         </a>
 
@@ -44,7 +40,7 @@ function FinalCTA() {
 
         <img
           src={lampara}
-          alt="LumiFlex"
+          alt="LumiFlex RGB Floor Lamp"
         />
 
       </div>

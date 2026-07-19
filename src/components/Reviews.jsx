@@ -1,35 +1,42 @@
 function Reviews() {
   return (
-    <section className="reviews" id="opiniones">
+    <section className="reviews" id="reviews">
 
-      <h2>Lo que dicen nuestros clientes</h2>
+      <h2>Why People Love LumiFlex™</h2>
 
       <div className="reviews-grid">
 
         <div className="review-card">
           <div className="stars">★★★★★</div>
+
           <p>
-            "No pensé que una lámpara pudiera cambiar tanto mi habitación.
-            Ahora el setup parece completamente distinto."
+            "The setup took less than five minutes, and the lighting completely
+            transformed my gaming room. The colors are incredibly vibrant."
           </p>
-          <h4>— Lucas M.</h4>
+
+          <h4>— Alex M. • Texas, USA</h4>
         </div>
 
         <div className="review-card">
           <div className="stars">★★★★★</div>
+
           <p>
-            "La sincronización con la música es increíble.
-            Todos los que vienen a casa preguntan dónde la compré."
+            "I love how easy it is to control everything from the app.
+            It creates the perfect atmosphere for movie nights."
           </p>
-          <h4>— Sofía R.</h4>
+
+          <h4>— Jessica R. • California, USA</h4>
         </div>
 
         <div className="review-card">
           <div className="stars">★★★★★</div>
+
           <p>
-            "Muy fácil de instalar, excelente calidad y el control desde el celular funciona perfecto."
+            "Excellent build quality, modern design and beautiful lighting.
+            It looks much more expensive than it actually is."
           </p>
-          <h4>— Martín G.</h4>
+
+          <h4>— Michael T. • Florida, USA</h4>
         </div>
 
       </div>

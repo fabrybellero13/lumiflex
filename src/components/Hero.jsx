@@ -1,4 +1,5 @@
 import Reveal from "./Reveal";
+import OfferSection from "./OfferSection";
 import lampara from "../images/lampara.png";
 
 function Hero() {
@@ -30,16 +31,40 @@ function Hero() {
               <span> Trusted by happy customers</span>
             </div>
 
-            <h2 className="hero-price">
-              <span className="old-price">$69.99</span>
-              $49.99
-            </h2>
+            <div className="hero-price-box">
 
-            <a href="#product">
-              <button>
-                Get Yours Today
-              </button>
-            </a>
+              <div className="discount-badge">
+                🔥 SAVE 50%
+              </div>
+
+              <h2 className="hero-price">
+
+                <span className="old-price">
+                  $99.99
+                </span>
+
+                <span className="new-price">
+                  $49.99
+                </span>
+
+              </h2>
+
+              <p className="price-info">
+                ✔ Limited Time Offer • Free Worldwide Shipping
+              </p>
+
+            </div>
+
+            <OfferSection />
+
+            <a
+  href="#product"
+  className="hero-button-link"
+>
+  <button className="hero-button">
+    Get Yours Today
+  </button>
+</a>
 
             <div className="hero-features">
               <span>🚚 Free Shipping</span>

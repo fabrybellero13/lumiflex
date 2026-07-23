@@ -1,4 +1,7 @@
+import { useState } from "react";
 import "./App.css";
+
+import Loading from "./components/Loading";
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -17,6 +20,12 @@ import Footer from "./components/Footer";
 import StickyBuyButton from "./components/StickyBuyButton";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  if (loading) {
+    return <Loading onFinish={() => setLoading(false)} />;
+  }
+
   return (
     <>
       <Navbar />
